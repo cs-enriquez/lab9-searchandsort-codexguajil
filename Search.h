@@ -7,8 +7,8 @@ using namespace std;
 //   bonus! try to implement your function so that it can accept
 //     many types of data (int, char, string, etc.)
 template <typename flexibleType> // ???
-void printArray(const flexibleType* arr, size_t size) {
-    for (size_t i = 0; i < size; ++i) {
+void printArray(const flexibleType* arr, int size) {
+    for (int i = 0; i < size; ++i) {
         cout << arr[i] << " ";
     }
     cout << endl;
